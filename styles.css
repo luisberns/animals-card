@@ -1,0 +1,77 @@
+/* add your CSS here */
+* {
+  font-family: sans-serif;
+}
+
+body {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  background: transparent;
+  background-image: url("img/bg.png");
+}
+
+a  {
+  text-decoration: none;
+}
+
+.content {
+  display: block;
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  background: #fff;
+  max-width: 700px;
+  height: auto;
+  border: none;
+  padding: 20px;
+  padding-right: 55px;
+}
+
+.content-in {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  background: inherit;
+  max-width: inherit;
+  border: solid #f0f0f0 .5px;
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, .26);
+  border-radius: 2px;
+  padding: 15px;
+  z-index: 4;
+}
+
+/*Content image*/
+.imageWrapper {
+  display: block;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 66.66%; /*3:2 aspect ratio*/
+  z-index: 6;
+}
+
+.imageWrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+}
+
+/*Content description*/
+.description {
+  display: block;
+  border: solid #f0f0f0 .5px;
+  border-radius: 2px;
+  padding: 10px 15px;
+  margin-top: 40px;
+}
+
+.description ul, li {
+  list-style: none;
+}
+
+.description ul li span {
+  font-weight: bold;
+}
